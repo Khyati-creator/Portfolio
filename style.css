@@ -12,6 +12,7 @@ body {
 }
 
 header {
+    width: 100vw;
     background-color: #ffffff;
     padding: 20px 50px;
 
@@ -21,10 +22,8 @@ header {
 
     border-bottom: 3px solid #f3d6ff;
 
-    position: sticky;
+    position: sticky;   
     top: 0;
-
-    z-index: 10;
 }
 
 header h1 {
@@ -140,7 +139,7 @@ button:hover {
 }
 
 
-aside {
+.facts {
     margin-top: 25px;
     padding: 20px;
 
@@ -151,11 +150,11 @@ aside {
     border-radius: 8px;
 }
 
-aside h3 {
+.facts h3 {
     color: #d97706;
 }
 
-aside ul {
+.facts ul {
     margin-left: 20px;
 }
 

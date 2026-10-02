@@ -47,7 +47,7 @@
             I am currently exploring programming, web development,
             artificial intelligence and other areas of technology, while studying as a first year undergrad at Scaler School of Technology.
         </p>
-        <aside>
+        <div class="facts">
             <h3>Quick Facts</h3>
             <ul>
                 <li>Computer Science Student</li>
@@ -56,7 +56,7 @@
                 <li>Interested in Robotics</li>
                 <li>Love Building Projects</li>
             </ul>
-        </aside>
+        </div>
     </section>
     
     <section id="skills">
@@ -176,7 +176,7 @@
         <p>
             Want to talk about a project or just say hello?
         </p>
-        <form>
+        <form id="contactForm">
             <label for="name">Name:</label>
             <input
                 type="text"
@@ -225,12 +225,13 @@
                 Send me updates about new projects
             </label>
             <br><br>
-            <button type="submit">
+            <button type="submit" id="sendButton">
                 Send Message
             </button>
             <button type="reset">
                 Clear
             </button>
+            <p id="formMessage"></p>
         </form>
     </section>
     
@@ -251,8 +252,9 @@
             </a>
         </p>
         <p>
-            &copy; 2026 Khyati
+            &copy; <span id="year"></span> Khyati
         </p>
     </footer>
+    <script src="script.js" defer></script>
 </body>
 </html>
